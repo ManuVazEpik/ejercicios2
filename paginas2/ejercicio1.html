@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio 1</title>
+</head>
+<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+<script src="JS/validaciones.js"></script>
+<body>
+
+	<div class="cuerpo">
+		<p align="center">Obtener dos numeros, si son iguales que los multiplique, si el primero es mayor que el segundo que se sumen, si no, que se resten.</p>
+
+	<form method="get" name="formulario">
+		
+		Introduce el primer numero:
+		<br>
+		<br>
+		<input type="text" id="n1" onkeypress="return validarn(event)">
+		<br>
+		<br>
+		Introduce el segundo numero:
+		<br>
+		<br>
+		<input type="text" id="n2"onkeypress="return validarn(event)">
+		<br>
+		<br>
+		<input type="button" name="send" value="Calcular" onclick="calcular()">
+
+	</form>
+
+	</div>
+
+</body>
+<footer>
+	
+	<p><a href="index.html">Volver al menu</a></p>
+
+</footer>
+	
+</html>

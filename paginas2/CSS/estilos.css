@@ -1,0 +1,16 @@
+h1,p{
+
+	font-family: Verdana;
+	color: red;
+	text-align: center;
+
+}
+
+input{
+
+	align-items: center;
+
+}
+.cuerpo {
+    background: linear-gradient(left, tomato, cyan, lightgreen);
+}

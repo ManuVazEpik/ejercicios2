@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+	<script src="JS/validaciones.js"></script>
+</head>
+<body>
+
+	<div class="cuerpo">
+		<section>
+		Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras trabajadas en una empresa, sabiendo que cuando las horas de trabajo exceden de 40, el resto se consideran horas extras y que se pagan al doble de una hora normal cuando no exceden de 8 horas; si las horas extras exceden de 8 se pagan las primeras 8 horas al doble y las demas al triple.
+	</section>
+	<section>
+		
+		<form method="get" name="formulario">
+			
+			Introduce el salario del trabajador:
+			<br>
+			<input type="text" id="salario" onkeypress="return validarn(event)">
+			<br>
+			<br>
+			Introduce el total de horas trabajadas:
+			<br>
+			<input type="text" id="horas" onkeypress="return validarn(event)">
+			<br>
+			<br>
+			La horas totales son:
+			<br>
+			<input type="text" id="mostrar" >
+			<br>
+			<br>
+			Las horas extras trabajadas son:
+			<br>
+			<input type="text" name="hExtra" readonly="readonly">
+			<br>
+			<br>
+			El salario es:
+			<input type="text" name="sExtra" readonly="readonly">
+			<br>
+			<br>
+			<input type="button" name="enviar" value="Calcular" onclick="calSalario()">
+
+		</form>
+
+	</section>
+	</div>
+
+</body>
+<footer>
+	
+	<p><a href="index.html">Volver al Menu	</a></p>
+
+</footer>
+</html>
